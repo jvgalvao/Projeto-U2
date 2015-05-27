@@ -9,18 +9,29 @@ package pilhaencadeada;
  *
  * @author COMPUTECH 3027-0039
  */
-public class No {
+public class NoE {
    private int valor;
-
-    public No(int valor) {
+   private NoE proximo;
+   
+    public NoE(int valor) {
         this.valor = valor;
+        this.proximo = proximo;
     }
 
     public int getValor() {
         return valor;
     }
 
+    public NoE getProximo() {
+        return proximo;
+    }
+
     public void setValor(int valor) {
         this.valor = valor;
-    } 
+    }
+
+    public void setProximo(NoE proximo) {
+        this.proximo = proximo;
+    }
+    
 }
