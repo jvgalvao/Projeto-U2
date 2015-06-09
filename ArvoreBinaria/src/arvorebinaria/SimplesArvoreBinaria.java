@@ -10,16 +10,23 @@ package arvorebinaria;
  * @author COMPUTECH 3027-0039
  */
 public class SimplesArvoreBinaria implements interfaceArvoreBinaria {
-private 
+ 
     
+      NoArvoreBinaria raiz;  
+        
+        
+      
     @Override
     public NoArvoreBinaria raiz() {
-      
+     return raiz;
     }
 
     @Override
     public NoArvoreBinaria buscarItr(int valor) {
-     
+          return null;
+        
+        
+        
     }
 
     @Override

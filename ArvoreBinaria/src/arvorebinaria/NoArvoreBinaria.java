@@ -14,10 +14,10 @@ public class NoArvoreBinaria {
      private NoArvoreBinaria esquerda;     
      private NoArvoreBinaria direita;  
   
-     public NoArvoreBinaria(int chave, NoArvoreBinaria esquerda, NoArvoreBinaria direita) {
+     public NoArvoreBinaria(int chave) {
         this.chave = chave;
-        this.esquerda = esquerda;
-        this.direita = direita;
+        this.esquerda = null;
+        this.direita = null;
     }
 
     public int getChave() {
